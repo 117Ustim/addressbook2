@@ -1,0 +1,37 @@
+.TextOutput {
+  display: flex;
+  margin-top: 10px;
+  line-height: 5px;
+  .editcontact {
+    span {
+      color: rgb(7, 250, 3);
+      cursor: pointer;
+    }
+  }
+  .deletecontact {
+    span {
+      color: red;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  }
+  h4 {
+    margin-left: 10px;
+    float: left;
+    color: rgb(97, 97, 98);
+  }
+  button {
+    color: rgb(49, 49, 49);
+    margin-left: 18px;
+    font-size: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  li {
+    list-style-type: none;
+  }
+  ul {
+    float: left;
+  }
+}
